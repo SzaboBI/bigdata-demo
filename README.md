@@ -23,5 +23,5 @@ bin/flume-ng agent --conf conf --conf-file conf/flume_kafka.conf --name agent -D
 
 Apache kafka:
 ```
-kafka-console-producer --topic my-topic --bootstrap-server localhost:19092
+kafka-console-producer --topic flume-demo --bootstrap-server localhost:19092
 ```
